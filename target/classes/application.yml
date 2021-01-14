@@ -1,0 +1,9 @@
+server:
+  port: 8086
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elvis_es
+      cluster-nodes: 39.105.71.25:9300
+      #cluster-nodes: hadoop137:9300,hadoop138:9300,hadoop139:9300
